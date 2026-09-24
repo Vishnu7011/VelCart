@@ -26,6 +26,7 @@ function Nav() {
         console.log(result.data)
        
         navigate("/login")
+        window.location.reload();
       } catch (error) {
         console.log(error)
       }
