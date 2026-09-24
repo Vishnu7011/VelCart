@@ -20,13 +20,13 @@ Velcart also includes an **AI-powered voice chatbot navigation assistant**. User
 
 For example, users can say:
 
-> 🎤 "Open my cart"
-
-> 🎤 "Show me men's products"
+> 🎤 "Show me collection page"
 
 > 🎤 "Take me to my orders"
 
 > 🎤 "Open the contact page"
+
+> 🎤 "Open cart page"
 
 The chatbot processes the voice command and takes the user directly to the requested page.
 
