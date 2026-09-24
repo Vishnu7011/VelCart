@@ -3,7 +3,7 @@ import Title from '../component/Title'
 import CardTotal from '../component/CardTotal';
 import Razorpay from '../assets/Razorpay.jpg'
 import { shopDataContext } from '../context/ShopContext';
-import { authDataContext } from '../context/authContext';
+import { authDataContext } from '../context/AuthContext';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
