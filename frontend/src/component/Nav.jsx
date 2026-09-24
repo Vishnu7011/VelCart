@@ -24,9 +24,8 @@ function Nav() {
       try {
         const result = await axios.get(serverUrl + "/api/auth/logout", {withCredentials:true})
         console.log(result.data)
-       
+        getCurrentUser()
         navigate("/login")
-        window.location.reload();
       } catch (error) {
         console.log(error)
       }
@@ -67,7 +66,7 @@ function Nav() {
               <ul className='w-[100%] h-[100%] flex items-start justify-around flex-col text-[17px] py-[10px] text-[white]'>
                 {!userData && <li className='w-[100%] hover:bg-[#2f2f27] px-[15px] py-[10px] cursor-pointer'onClick={()=>{
                   navigate("/login"); setShowProfile(false)}}>Login</li>}
-                {userData && <li className='w-[100%] hover:bg-[#2f2f27] px-[15px] py-[10px] cursor-pointer' onClick={()=>{handleLogout();setShowProfile(false)}}>LogOut</li>}
+                {userData && <li className='w-[100%] hover:bg-[#2f2f27] px-[15px] py-[10px] cursor-pointer' onClick={handleLogout}>LogOut</li>}
                 <li className='w-[100%] hover:bg-[#2f2f27] px-[15px] py-[10px] cursor-pointer'
                 onClick={()=>{navigate("/order");setShowProfile(false)}}>Orders</li>
                 <li className='w-[100%] hover:bg-[#2f2f27] px-[15px] py-[10px] cursor-pointer'
