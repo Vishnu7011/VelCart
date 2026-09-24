@@ -32,20 +32,29 @@ The chatbot processes the voice command and takes the user directly to the reque
 
 ---
 
-## ✨ Features
+✨ Features
 
-### 🛍️ Customer Website
+🛍️ Product Browsing
 
-- Product Browsing
-- Product Details
-- Add to Cart
-- Cart Management
-- User Authentication
-- User Profile
-- Order Placement
-- Order Management
-- Razorpay Payment Integration
-- Responsive Design
+🔎 Product Details
+
+🛒 Add to Cart
+
+➕➖ Cart Quantity Management
+
+👤 User Authentication
+
+📦 Order Management
+
+💳 Razorpay Payment Integration
+
+🤖 AI-Powered Voice Chatbot
+
+🎤 Voice-Based Page Navigation
+
+📱 Responsive Design
+
+🔐 Secure Backend APIs
 
 ### 🤖 AI Voice Chatbot
 
