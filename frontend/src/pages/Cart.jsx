@@ -46,7 +46,7 @@ function Cart() {
                        <p className='md:text-[25px] text-[20px] text-[#f3f9fc]'>{productData.name}</p>
                       <div className='flex items-center gap-[20px]'>
                         <p className='text-[20px] text-[#aaf4e7]'>{currency} {productData.price}</p>
-                        <p className='w-[40px] h-[20px] text-[18px] text-[white] bg-[#518080b4] rounded-md mt-[5px] flex items-center justify-center border-[1px] border-[#9ff9f9]'>{item.size}</p>
+                        <p className='w-[40px] h-[40px] text-[16px] text-[white] bg-[#518080b4] rounded-md mt-[5px] flex items-center justify-center border-[1px] border-[#9ff9f9]'>{item.size}</p>
                      </div>
                   </div>
                   <input type='number' min={1} defaultValue={item.quantity} className='md:max-w-20 max-w-10 md:px-2 md:py-2 py-[5px] px-[10px] text-[white] text-[18px]  font-semibold bg-[#518080b4] absolute md:top-[20%] top-[46%] left-[75%] md:left-[50%] border-[1px] border-[#9ff9f9] rounded-md' 
