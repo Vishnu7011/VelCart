@@ -2,7 +2,7 @@
 
 **Velcart** is a modern full-stack e-commerce web application built using the **MERN Stack**. It provides a smooth and user-friendly shopping experience with product browsing, cart management, authentication, orders, payments, and an **AI-powered voice chatbot for website navigation**.
 
----
+--- 
 ## 🚀 Live Demo
 
 Link:
