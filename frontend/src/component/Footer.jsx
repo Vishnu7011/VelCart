@@ -34,7 +34,7 @@ function Footer() {
               <ul>
                 <li className='text-[15px] text-[#1e2223] '>+91-1234567890</li>
                 <li className='text-[15px] text-[#1e2223] '>contact@velcart.com</li>
-                <li className='text-[15px] text-[#1e2223] hidden md:block'>+1-123-456-7890</li>
+                <li className='text-[15px] text-[#1e2223] hidden md:block'>+91-123-456-7890</li>
                 <li className='text-[15px] text-[#1e2223] hidden md:block'>admin@velcart.com</li>
               </ul>
              </div>
